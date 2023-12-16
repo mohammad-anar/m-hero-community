@@ -16,23 +16,23 @@ const pages = ["Level2", "Course Details", "About Us", "Login"];
 
 const Navbar = () => {
   const [sidebar, setsidebar] = useState(false);
-  console.log(sidebar);
   return (
     <AppBar
-    className="backdrop-blur-md min-h-[10vh] mb-0"
+    className="backdrop-blur-md min-h-[10vh] "
       sx={{
         color: "secondary",
-        backgroundColor: "black",
+        backgroundColor: "transparent",
         backdropFilter: "blur",
         padding: "20px",
-        WebkitBackdropFilter: "20px"
+        WebkitBackdropFilter: "20px",
+        position:"fixed",
+        top:"0px",
+        zIndex: "999999",
       }}
       position="static"
     >
-      <Container maxWidth="xl">
+      <Container sx={{backgroundColor:""}}   maxWidth="xl">
         <Toolbar disableGutters>
-        <div ></div>
-
           <Box onClick={() => setsidebar(!sidebar)} className="lg:hidden mr-4">
           <MenuIcon size="large"/>
           </Box>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link>
               <Box className="flex items-center gap-2">
                 <img src={logo} className="w-8" alt="logo" />
-                <h2 className="text-xl font-bold font-primary">M-Hero</h2>
+                <h2 className="text-xl text-[#561fee] font-bold font-primary">M-Hero</h2>
               </Box>
             </Link>
           </Box>
@@ -48,23 +48,23 @@ const Navbar = () => {
             {pages.map((page) => (
               <Button
                 key={page}
-                sx={{ my: 2, color: "white", display: "block", fontSize:"14px", fontWeight: "600" }}
+                sx={{ my: 2, color: "blue", display: "block", fontSize:"14px", fontWeight: "600" }}
               >
                 {page}
               </Button>
             ))}
             <Box className="flex items-center gap-6 ml-4" >
-            <Typography className="flex items-center gap-2 font-bold text-2xl" sx={{fontWeight:"600"}} variant="h6"><FaBangladeshiTakaSign/>{coursePrise}</Typography>
+            <Typography className="flex items-center gap-2 font-bold text-2xl" sx={{fontWeight:"600", color:"#561fee"}} variant="h6"><FaBangladeshiTakaSign/>{coursePrise}</Typography>
             <Button
               size="small"
-              className="bg-gradient-to-r from-blue-500 via-purple-600 text-white h-12"
+              className="bg-gradient-to-r from-blue-500 via-purple-600 text-blue h-12 "
               sx={{
                 color: "white",
                 backgroundColor: "primary.dark",
                 px: "16px",
                 fontWeight:"800",
                 fontSize:"16px",
-                borderRadius: "5px"
+                borderRadius: "5px",
               }}
             >
               Enroll Now

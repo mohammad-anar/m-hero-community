@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #banner {
-    background-image: url("./assets/bg2.svg");
+    background-image: url("./assets/background.jpg");
     background-position: center;
     background-blend-mode: darken;
     background-repeat: no-repeat;

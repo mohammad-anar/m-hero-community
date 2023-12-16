@@ -12,7 +12,7 @@ const ProjectsYouBuild = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Ranking <br/> Board</h2>
             </div>
@@ -24,7 +24,7 @@ const ProjectsYouBuild = () => {
             </div>
           </div>
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Shopping <br/> Cart</h2>
             </div>
@@ -36,7 +36,7 @@ const ProjectsYouBuild = () => {
             </div>
           </div>
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Hot <br/> Gadgets</h2>
             </div>
@@ -48,7 +48,7 @@ const ProjectsYouBuild = () => {
             </div>
           </div>
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Ema <br/> Jhon</h2>
             </div>
@@ -60,7 +60,7 @@ const ProjectsYouBuild = () => {
             </div>
           </div>
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Genous <br/> Car</h2>
             </div>
@@ -72,7 +72,7 @@ const ProjectsYouBuild = () => {
             </div>
           </div>
           {/* card 1  */}
-          <div className="flex items-center justify-around gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
+          <div className="flex items-center justify-around flex-col lg:flex-row gap-5 bg-slate-400 hover:bg-teal-600 duration-300 hover:scale-105 p-12 rounded-xl">
             <div>
               <h2 id="gradientText" className="text-5xl font-bold">Doctors <br/> Portal</h2>
             </div>
