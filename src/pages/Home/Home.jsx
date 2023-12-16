@@ -1,21 +1,20 @@
-import logo from "../../assets/logo.png";
+import Successgellary from "../../components/shared/Home/Successgellary";
+import Banner from "./Banner/Banner";
+
 const Home = () => {
   return (
     <div>
+    {/* banner section  */}
       <section
         id="banner"
         className="h-[85vh] flex items-center justify-evenly"
       >
-        <div className="hidden lg:block">
-          <img className="w-72" src={logo} alt="logo" />
-        </div>
-        <div id="gradientText"
-          className="text-8xl font-bold"
-        >
-          <h2>Let&apos;s Code </h2>
-          <h2>Your Career_</h2>
-        </div>
+        <Banner/>
       </section>
+      {/* success gallery  */}
+      <div className="my-12">
+      <Successgellary/>
+      </div>
     </div>
   );
 };
