@@ -15,15 +15,15 @@ const OurImpact = () => {
         </h2>
       </div>
       {/* stat  */}
-      <div className="flex items-center gap-5 justify-between">
-        <div className="h-full flex-1">
+      <div className="flex flex-col lg:flex-row w-full items-center gap-5 justify-between">
+        <div className="h-full flex-1 w-full text-center">
           <LuMoveDown
-            className="h-full font-light text-[#561fee]"
+            className="h-full font-light text-[#561fee] mx-auto"
             size={100}
           />
           <p className="text-xl mt-8 text-[#ef4bf5]">Scroll down</p>
         </div>
-        <div className="rounded-xl flex-1 text-white flex flex-col md:flex-row items-center justify-end py-6 md:py-12 md:px-20 text-center  gap-12 bg-gradient-to-r from-[#ef4bf5] to-[#561fee]">
+        <div className="rounded-xl flex-1 w-full order-first lg:order-last text-white flex flex-col md:flex-row items-center justify-end py-6 md:py-12 md:px-20 text-center  gap-12 bg-gradient-to-r from-[#ef4bf5] to-[#561fee]">
           <div className="space-y-2 w-full">
             <h1 className="text-5xl font-bold">3000+</h1>
             <p className="text-xl font-medium">
