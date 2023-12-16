@@ -1,3 +1,4 @@
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
 import Successgellary from "../../components/shared/Home/Successgellary";
 import Banner from "./Banner/Banner";
 import MeetOurTeam from "./MeetOurTeam/MeetOurTeam";
@@ -5,6 +6,7 @@ import OurImpact from "./OurImpact/OurImpact";
 import ProjectsYouBuild from "./ProjectsYouBuild/ProjectsYouBuild";
 import WhatToLearn from "./WhatToLearn/WhatToLearn";
 import XFactor from "./xFactor/XFactor";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Home = () => {
   return (
@@ -40,6 +42,133 @@ const Home = () => {
       {/* meet out team  */}
       <div className="mt-20">
       <MeetOurTeam/>
+      </div>
+      {/* faq section */}
+      <div className="flex items-center flex-col md:flex-row my-32 bg-[#c7bfe0] p-10">
+      <div className="min-w-[350px] order-last md:order-first">
+      <h2 id="gradientText" className="text-8xl font-bold">FA&Q</h2>
+      </div>
+      <div className="flex-1">
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/* accordion 2  */}
+      <Accordion sx={{backgroundColor:"#561fee", color:"white", p:"20px"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{color:"white"}} size="large" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography variant="h4">For whome is this course?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This Course Is Created For Those Who Want To Learn Web Development From Scratch And Build A Career As A Web Developer In Software Companies. Even Those Who Studied CSE For Four Years But Didn’t Learn Much And Couldn’t Decide What To Do, Can Complete Web Development From This Course And Apply For Jobs. 😀
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      </div>
       </div>
     </div>
   );
