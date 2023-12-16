@@ -1,19 +1,26 @@
 import Successgellary from "../../components/shared/Home/Successgellary";
 import Banner from "./Banner/Banner";
+import OurImpact from "./OurImpact/OurImpact";
+
 
 const Home = () => {
   return (
     <div>
-    {/* banner section  */}
+      {/* banner section  */}
       <section
         id="banner"
         className="h-[85vh] flex items-center justify-evenly"
       >
-        <Banner/>
+        <Banner />
       </section>
       {/* success gallery  */}
-      <div className="my-12">
-      <Successgellary/>
+      <section className="my-20 ">
+        <Successgellary />
+      </section>
+      {/* our impact section  */}
+      <div className="flex items-center justify-center md:justify-end">
+      
+      <OurImpact/>
       </div>
     </div>
   );
